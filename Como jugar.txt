@@ -1,0 +1,22 @@
+Como jugar: 
+Empezaras en un Menu con tres opciones (1)Game que es inicializar el juego, 
+(2)config en donde puedes cambiar el numero de casillas, serpientes y escaleras, ademas del avance y retroceso de estos
+ademas de el numero de turnos maximos y jugadores.  
+(los valores default son 30 casillas con 3 serpientes y 3 escalera, con avances y retrocesos de 3, 100 turnos y 2 jugadores), 
+y (3)Mode donde se eligira entre 'A' de automatico y 'M' de manual en donde despues de que todos 
+los jugadores movieron sale una opcion de continuar o salir.
+advertencia: el numero de serpientes mas el de escaleras debe ser menor al numero de casillas 
+y el numero de retrocesos/avances debe ser menor al num de casillas.
+Al iniciar el juego saldra un anuncio donde te pedira presionar ENTER para empezar, 
+a continuacion se mostrara el tablero, en donde la casilla de inicio se mostrara como [Start]
+y la del final como [End], las casillas de escaleras se mostraran como [E] las cuales te moveran 
+hacia adelante dependiendo del avance configurado, las casillas de serpiente se mostraran como [S] las cuales te retrocederan 
+dependiendo de la configuracion, advertencia: si caes en una casilla de serpiente o escalera y al moverte segun su respectivo efecto
+vuelves a caer en una casilla de esta no volveras a moverte.
+Despues de mostrarte el tablero empezara el jugador 1 y se desplegara el mensaje de "presiona ENTER para rodar el dado", 
+con esto se realiza el turno del jugador y se desplegan los siguientes valores: 
+Turno/Jugador/Casilla actual/Numero obtenido en el dado/Tipo de casilla final/Numero de casilla final,
+advertencia: al finalizar cada turno se dara la opcion de salir del juego, utilizando C para continuar 
+y E para salir (esto se omite si se configura en automatico).
+Despues de esto se acabara el turno y seguira el siguiente jugador, el juego termina hasta que un jugador 
+llegue al final del tablero o se llegue al numero maximo de turnos configurados.
